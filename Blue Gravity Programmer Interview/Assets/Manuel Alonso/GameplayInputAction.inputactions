@@ -1,5 +1,5 @@
 {
-    "name": "Gameplay",
+    "name": "GameplayInputAction",
     "maps": [
         {
             "name": "Player",
@@ -159,7 +159,7 @@
                 },
                 {
                     "name": "",
-                    "id": "028681e5-d10b-4b53-afce-35e195bfd1e0",
+                    "id": "3ef41c0b-b17a-4497-bc90-cf209f135ddc",
                     "path": "<Gamepad>/rightTrigger",
                     "interactions": "",
                     "processors": "",
@@ -170,18 +170,7 @@
                 },
                 {
                     "name": "",
-                    "id": "b8720d47-da12-4d10-a149-10bb33eaec3d",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Interact",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "e7507f1f-e881-4160-8d93-a963a113724e",
+                    "id": "6e6201ec-2873-47f6-9b2a-5e8160c5e7f9",
                     "path": "<Touchscreen>/primaryTouch/tap",
                     "interactions": "",
                     "processors": "",
@@ -192,7 +181,7 @@
                 },
                 {
                     "name": "",
-                    "id": "91e78e4a-bdc2-41ba-b61e-7db58877596a",
+                    "id": "b24fa2e8-09aa-432c-8b81-4e6c5493bc78",
                     "path": "<Joystick>/trigger",
                     "interactions": "",
                     "processors": "",
@@ -203,7 +192,7 @@
                 },
                 {
                     "name": "",
-                    "id": "f960259f-86db-4663-a1c7-b6a4d7358d9d",
+                    "id": "ec6e4670-c140-4ab4-ab8e-994e20f62538",
                     "path": "<XRController>/{PrimaryAction}",
                     "interactions": "",
                     "processors": "",
@@ -214,7 +203,7 @@
                 },
                 {
                     "name": "",
-                    "id": "0e0f945e-9173-4f78-bc5b-f7a0782d8432",
+                    "id": "9d8db1e3-0bf9-4c19-87b0-8c438fba8049",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
