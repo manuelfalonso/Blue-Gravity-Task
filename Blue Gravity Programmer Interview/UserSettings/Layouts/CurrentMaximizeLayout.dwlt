@@ -86,7 +86,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 72162
+  controlID: 73212
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -186,8 +186,8 @@ MonoBehaviour:
     y: 0
     width: 1159
     height: 489
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -444,9 +444,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.74794, y: 3.5431638, z: -34.336914}
+    m_Target: {x: 840.9697, y: 99.221405, z: 0.06690997}
     speed: 2
-    m_Value: {x: -2.74794, y: 3.5431638, z: -34.336914}
+    m_Value: {x: 840.9697, y: 99.221405, z: 0.06690997}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -497,9 +497,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 8.267159
+    m_Target: 56.070484
     speed: 2
-    m_Value: 8.267159
+    m_Value: 56.070484
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1387,9 +1387,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: f8f8fbff4e2f0100
+      m_SelectedIDs: 247c0100
+      m_LastClickedID: 97316
+      m_ExpandedIDs: 3819fbff2c1dfbff247c01003a7c0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1466,7 +1466,7 @@ MonoBehaviour:
   - {fileID: 16}
   - {fileID: 17}
   m_Selected: 0
-  m_LastSelected: 3
+  m_LastSelected: 2
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1525,7 +1525,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 67332
+  m_LastSelectedObjectID: 97316
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1631,13 +1631,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Manuel Alonso/Data
+    - Assets/Manuel Alonso/Scripts/Inventory
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Manuel Alonso/Data
+  - Assets/Manuel Alonso/Scripts/Inventory
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Unity Files\Proyectos\ENTREVISTAS TECNICAS\Blue-Gravity-Task\Blue
     Gravity Programmer Interview
@@ -1645,9 +1645,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7a750000
-    m_LastClickedID: 30074
-    m_ExpandedIDs: 00000000dc730000de730000e4730000e6730000e8730000ec7300005ab5000000ca9a3b
+    m_SelectedIDs: 08070100
+    m_LastClickedID: 67336
+    m_ExpandedIDs: 00000000dc730000de730000e2730000e4730000e6730000e8730000ec7300005ab5000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1700,9 +1700,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 247c0100
+    m_LastClickedInstanceID: 97316
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000fe2f000082310000be3e0000e691ffff00000000b48c0000523400005a930000ccc3feffec72000050850000debf000010c00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
