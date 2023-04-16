@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ec01969e48d8cd43803be28e7389626, type: 3}
-  m_Name: Hood Shop Item
+  m_Name: Hood Shop Item 2
   m_EditorClassIdentifier: 
   Id: 1
-  Icon: {fileID: 21300000, guid: 468244f274f38f64b85773c7888444b6, type: 3}
+  Icon: {fileID: 21300000, guid: f7e7bed775fff8347b9e53c67e20875f, type: 3}
   Price: 100
   Stock: 1

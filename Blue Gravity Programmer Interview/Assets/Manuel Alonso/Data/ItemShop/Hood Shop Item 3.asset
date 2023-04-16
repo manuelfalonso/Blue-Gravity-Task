@@ -9,8 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96d3264d49af7154796373cd6aa4098e, type: 3}
-  m_Name: Shopkeeper Shop Item Stock
+  m_Script: {fileID: 11500000, guid: 4ec01969e48d8cd43803be28e7389626, type: 3}
+  m_Name: Hood Shop Item 3
   m_EditorClassIdentifier: 
-  Stock:
-  - {fileID: 11400000, guid: 719b9e9d7129ef444a5d99385505a9de, type: 2}
+  Id: 1
+  Icon: {fileID: 21300000, guid: ae2d3e3bacfacde4981510b116293dba, type: 3}
+  Price: 100
+  Stock: 1
