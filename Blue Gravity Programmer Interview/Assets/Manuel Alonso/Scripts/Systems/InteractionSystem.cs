@@ -15,6 +15,7 @@ public class InteractionSystem : MonoBehaviour
     public void OnInteract(InputAction.CallbackContext context)
     {
         if (_interactionTrigger == null) return;
+        if (!context.performed) return;
         var contactsQuantity = _interactionTrigger.OverlapCollider(_contactFilter, _contacts);
         if (contactsQuantity > 0)
             _contacts[0].GetComponent<InteractionHandler>().HandleInteracion();

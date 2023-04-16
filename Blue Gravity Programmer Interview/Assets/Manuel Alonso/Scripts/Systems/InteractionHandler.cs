@@ -10,6 +10,5 @@ public class InteractionHandler : MonoBehaviour
     public void HandleInteracion()
     {
         OnInteraction?.Invoke();
-        Debug.Log($"Open Cloth Shop");
     }
 }
