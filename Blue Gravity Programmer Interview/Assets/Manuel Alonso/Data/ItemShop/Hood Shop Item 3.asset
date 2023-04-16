@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec01969e48d8cd43803be28e7389626, type: 3}
   m_Name: Hood Shop Item 3
   m_EditorClassIdentifier: 
-  Id: 1
+  Id: 3
+  Name: 
   Icon: {fileID: 21300000, guid: ae2d3e3bacfacde4981510b116293dba, type: 3}
   Price: 100
   Stock: 1

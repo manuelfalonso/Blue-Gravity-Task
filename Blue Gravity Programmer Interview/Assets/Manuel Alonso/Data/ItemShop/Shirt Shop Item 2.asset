@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec01969e48d8cd43803be28e7389626, type: 3}
   m_Name: Shirt Shop Item 2
   m_EditorClassIdentifier: 
-  Id: 1
+  Id: 12
+  Name: 
   Icon: {fileID: 21300000, guid: 90458a12b047bb84ba77cb7ea81ba457, type: 3}
   Price: 75
   Stock: 1
