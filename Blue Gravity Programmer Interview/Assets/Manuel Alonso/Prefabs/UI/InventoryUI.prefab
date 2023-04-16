@@ -93,8 +93,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64
-  m_fontSizeBase: 64
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -221,6 +221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5300657726907016433}
   - component: {fileID: 1658570956890989871}
+  - component: {fileID: 2091087867578985333}
   m_Layer: 5
   m_Name: InventoryUI
   m_TagString: Untagged
@@ -262,6 +263,20 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &2091087867578985333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3741123135885760957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2626a3facb48b3448babb4385af2345, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _moneyPocketText: {fileID: 8062139784315621396}
+  _playerData: {fileID: 11400000, guid: 125541186e9a58c469e502bbf0133c4b, type: 2}
 --- !u!1 &5830720489595483817
 GameObject:
   m_ObjectHideFlags: 0
