@@ -4,14 +4,12 @@ using UnityEngine.InputSystem;
 
 public class TopDownCharacterController2D : MonoBehaviour
 {
-    [SerializeField]
-    private PlayerInput _playerInput = default(PlayerInput);
+    //[SerializeField]
+    //private PlayerInput _playerInput = default(PlayerInput);
     [SerializeField]
     private Rigidbody2D _rigidbody = default;
     [SerializeField]
     private float _movementSpeed = 1f;
-    [SerializeField]
-    private Flip _flipBehaviour = default(Flip);
 
     private Vector2 _moveAmount = new Vector2();
     private bool _flipX = false;
