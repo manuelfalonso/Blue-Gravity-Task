@@ -4,6 +4,7 @@ using UnityEngine;
 public class ItemShop : Item
 {
     public Sprite Icon = default(Sprite);
-    public float Price = default(float);
+    public float BuyPrice = default;
+    public float SellPrice = default(float);
     public int Stock = default(int);
 }

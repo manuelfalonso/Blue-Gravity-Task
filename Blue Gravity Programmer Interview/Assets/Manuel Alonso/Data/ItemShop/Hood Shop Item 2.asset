@@ -15,5 +15,6 @@ MonoBehaviour:
   Id: 2
   Name: 
   Icon: {fileID: 21300000, guid: f7e7bed775fff8347b9e53c67e20875f, type: 3}
-  Price: 100
+  BuyPrice: 160
+  SellPrice: 80
   Stock: 1
