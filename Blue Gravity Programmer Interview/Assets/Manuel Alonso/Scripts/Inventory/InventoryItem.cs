@@ -15,25 +15,32 @@ public class InventoryItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     private TextMeshProUGUI _itemPrice;
 
 
-    private bool _initialized = false;
+    public bool IsInitialized { get; private set; }
 
 
     public void Setup(ItemShop itemData)
     {
         _itemIcon.sprite = itemData.Icon;
         _itemPrice.text = itemData.SellPrice.ToString();
-        _initialized = true;
+        IsInitialized = true;
+    }
+
+    public void ResetItem()
+    {
+        _itemIcon.sprite = null;
+        _itemPrice.text = string.Empty;
+        IsInitialized = false;
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (_initialized)
+        if (IsInitialized)
             _hoverMenu?.SetActive(true);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        if (_initialized)
+        if (IsInitialized)
             _hoverMenu?.SetActive(false);
     }
 }
