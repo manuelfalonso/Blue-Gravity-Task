@@ -39,12 +39,21 @@ public class InventoryController : MonoBehaviour
         return isSuccess;
     }
 
-    public bool RemoveItemFromInventory()
+    // Called from Unity Event
+    public void RemoveItemFromInventory(ItemShop itemData)
     {
         bool isSuccess = false;
 
+        foreach (var item in _items)
+        {
+            if (item.Data.Id != itemData.Id) continue;
+            item.ResetItem();
+            isSuccess = true;
+        }
 
+        if (!isSuccess)
+            Debug.Log($"Item in Inventory not found");
 
-        return isSuccess;
+        //return isSuccess;
     }
 }
