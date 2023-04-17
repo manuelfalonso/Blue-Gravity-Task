@@ -56,4 +56,10 @@ public class InventoryController : MonoBehaviour
 
         //return isSuccess;
     }
+
+    // Called from Unity Event
+    public void SetMoneyPocketAmount(int amount)
+    {
+        _moneyPocketText.text = amount.ToString();
+    }
 }

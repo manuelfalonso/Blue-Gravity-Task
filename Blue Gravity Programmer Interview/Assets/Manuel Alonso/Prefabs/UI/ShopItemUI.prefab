@@ -260,9 +260,6 @@ MonoBehaviour:
   OnBuyItem:
     m_PersistentCalls:
       m_Calls: []
-  OnSellItem:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &2091780447385926243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,7 +276,19 @@ MonoBehaviour:
   - eventID: 2
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 3263607208879765580}
+          m_TargetAssemblyTypeName: ShopItem, Assembly-CSharp
+          m_MethodName: Buy
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &5538789941945405161
 GameObject:
   m_ObjectHideFlags: 0

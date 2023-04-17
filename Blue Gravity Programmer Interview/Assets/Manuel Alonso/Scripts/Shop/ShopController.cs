@@ -14,30 +14,20 @@ public class ShopController : MonoBehaviour
 
     void Start()
     {
-        if (!LoadShop(_shopStock))
-            Debug.Log($"Error initializing Shop");
+        LoadShop(_shopStock);
     }
 
 
-    public bool LoadShop(ItemShopStock _shopStock)
+    public void LoadShop(ItemShopStock _shopStock)
     {
-        bool isSucces = false;
-
         foreach (var item in _shopStock.Stock)
         {
             var go = Instantiate(_shopItemPrefab, _shopItemsParent);
             go.Setup(item);
         }
-
-        return isSucces;
     }
 
-    public void Buy()
-    {
-
-    }
-
-    public void Sell()
+    public void Buy(ItemShop data)
     {
 
     }
