@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerCurrencyManager : Singleton<PlayerCurrencyManager>
 {
@@ -8,6 +9,9 @@ public class PlayerCurrencyManager : Singleton<PlayerCurrencyManager>
 
 
     public int Coins { get; private set; }
+
+    [Header("Events")]
+    public UnityEvent<int> OnCoinsValueChanged = new UnityEvent<int>();
 
 
     void Start()
@@ -30,6 +34,7 @@ public class PlayerCurrencyManager : Singleton<PlayerCurrencyManager>
         if (Coins - amountToReduce >= 0)
         {
             Coins -= amountToReduce;
+            OnCoinsValueChanged?.Invoke(Coins);
             isSuccess = true;
         }
         else

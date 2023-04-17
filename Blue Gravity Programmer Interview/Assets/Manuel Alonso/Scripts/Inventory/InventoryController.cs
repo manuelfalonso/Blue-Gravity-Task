@@ -22,21 +22,24 @@ public class InventoryController : MonoBehaviour
     }
 
 
-    public bool AddItemToInventory(ItemShop itemData)
+    // Called from Unity Event
+    public void AddItemToInventory(ItemShop itemData)
     {
         bool isSuccess = false;
 
         foreach (var item in _items)
         {
+            if (isSuccess) break;
             if (item.IsInitialized) continue;
             item.Setup(itemData);
             isSuccess = true;
+
         }
 
         if (!isSuccess)
             Debug.Log($"Inventory Full");
 
-        return isSuccess;
+        //return isSuccess;
     }
 
     // Called from Unity Event

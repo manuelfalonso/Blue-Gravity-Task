@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ShopController : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class ShopController : MonoBehaviour
     [SerializeField]
     private ItemShopStock _shopStock = default;
 
+    [Header("Events")]
+    public UnityEvent<ItemShop> OnItemBought = new UnityEvent<ItemShop>();
 
     void Start()
     {
@@ -23,12 +26,13 @@ public class ShopController : MonoBehaviour
         foreach (var item in _shopStock.Stock)
         {
             var go = Instantiate(_shopItemPrefab, _shopItemsParent);
+            go.GetComponent<ShopItem>().OnBuyItem.AddListener(Buy);
             go.Setup(item);
         }
     }
 
     public void Buy(ItemShop data)
     {
-
+        OnItemBought?.Invoke(data);
     }
 }

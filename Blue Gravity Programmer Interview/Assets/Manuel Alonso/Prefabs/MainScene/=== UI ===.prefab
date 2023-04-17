@@ -313,6 +313,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8aaa0fa44e08f484cb7608d1f0aeb702, type: 3}
+--- !u!114 &390526270945957827 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2091087867578985333, guid: 8aaa0fa44e08f484cb7608d1f0aeb702, type: 3}
+  m_PrefabInstance: {fileID: 1760455302192151734}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2626a3facb48b3448babb4385af2345, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &5900239822037276743 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5300657726907016433, guid: 8aaa0fa44e08f484cb7608d1f0aeb702, type: 3}
@@ -560,6 +571,34 @@ PrefabInstance:
     - target: {fileID: 4164197589922831941, guid: dae3c69e3a539bf44a1a41403c59012a, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379880828020106594, guid: dae3c69e3a539bf44a1a41403c59012a, type: 3}
+      propertyPath: OnItemBought.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379880828020106594, guid: dae3c69e3a539bf44a1a41403c59012a, type: 3}
+      propertyPath: OnItemBought.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379880828020106594, guid: dae3c69e3a539bf44a1a41403c59012a, type: 3}
+      propertyPath: OnItemBought.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 390526270945957827}
+    - target: {fileID: 4379880828020106594, guid: dae3c69e3a539bf44a1a41403c59012a, type: 3}
+      propertyPath: OnItemBought.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379880828020106594, guid: dae3c69e3a539bf44a1a41403c59012a, type: 3}
+      propertyPath: OnItemBought.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddItemToInventory
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379880828020106594, guid: dae3c69e3a539bf44a1a41403c59012a, type: 3}
+      propertyPath: OnItemBought.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: InventoryController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379880828020106594, guid: dae3c69e3a539bf44a1a41403c59012a, type: 3}
+      propertyPath: OnItemBought.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5049646563313941818, guid: dae3c69e3a539bf44a1a41403c59012a, type: 3}
       propertyPath: m_AnchorMax.x

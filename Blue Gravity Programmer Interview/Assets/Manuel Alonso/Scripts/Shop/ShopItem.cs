@@ -38,10 +38,11 @@ public class ShopItem : MonoBehaviour
             return;
 
         _isInitialized = false;
-        Reset();
         gameObject.SetActive(false);
 
         OnBuyItem?.Invoke(_data);
+
+        Reset();
     }
 
 
