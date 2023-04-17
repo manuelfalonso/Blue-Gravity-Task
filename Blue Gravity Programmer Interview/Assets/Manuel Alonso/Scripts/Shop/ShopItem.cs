@@ -14,11 +14,14 @@ public class ShopItem : MonoBehaviour
     public UnityEvent OnBuyItem = new UnityEvent();
     public UnityEvent OnSellItem = new UnityEvent();
 
+    private bool _isInitialized = false;
 
-    public void Setup(Sprite icon, string price)
+
+    public void Setup(ItemShop data)
     {
-        _icon.sprite = icon;
-        _priceText.text = price;
+        _icon.sprite = data.Icon;
+        _priceText.text = data.BuyPrice.ToString();
+        _isInitialized = true;
     }
 
     public void Buy()
