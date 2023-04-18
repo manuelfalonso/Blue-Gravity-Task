@@ -4,31 +4,71 @@ public class EquipmentController : MonoBehaviour
 {
     [Header("Equipment")]
     [SerializeField]
-    private SpriteRenderer _hood = default(SpriteRenderer);
+    private ItemShop _hoodItem = default(ItemShop);
     [SerializeField]
-    private SpriteRenderer _shirt = default(SpriteRenderer);
+    private ItemShop _shirtItem = default(ItemShop);
     [SerializeField]
-    private SpriteRenderer _pants = default(SpriteRenderer);
+    private ItemShop _pantsItem = default(ItemShop);
+
+    [Header("Sprites")]
+    [SerializeField]
+    private SpriteRenderer _hoodSprite = default(SpriteRenderer);
+    [SerializeField]
+    private SpriteRenderer _shirtSprite = default(SpriteRenderer);
+    [SerializeField]
+    private SpriteRenderer _pantsSprite = default(SpriteRenderer);
 
 
-    public void EquipHood(Sprite newEquipment)
+    private void Start()
     {
-        Equip(_hood, newEquipment);
+        EquipmentSetup();
     }
 
-    public void EquipShirt(Sprite newEquipment)
+
+    public void EquipItemShop(ItemShop data)
     {
-        Equip(_shirt, newEquipment);
+        switch (data.type)
+        {
+            case ItemShop.Type.Hood:
+                EquipHood(data.Icon);
+                break;
+            case ItemShop.Type.Shirt:
+                EquipShirt(data.Icon);
+                break;
+            case ItemShop.Type.Pants:
+                EquipPants(data.Icon);
+                break;
+            default:
+                Debug.LogError("Incorrect ItemShop type");
+                break;
+        }
     }
 
-    public void EquipPants(Sprite newEquipment)
+
+    private void EquipHood(Sprite newEquipment)
     {
-        Equip(_pants, newEquipment);
+        Equip(_hoodSprite, newEquipment);
     }
 
+    private void EquipShirt(Sprite newEquipment)
+    {
+        Equip(_shirtSprite, newEquipment);
+    }
+
+    private void EquipPants(Sprite newEquipment)
+    {
+        Equip(_pantsSprite, newEquipment);
+    }
 
     private void Equip(SpriteRenderer equipmentSlot, Sprite newEquipment)
     {
         equipmentSlot.sprite = newEquipment;
+    }
+
+    private void EquipmentSetup()
+    {
+        EquipHood(_hoodItem.Icon);
+        EquipShirt(_shirtItem.Icon);
+        EquipPants(_pantsItem.Icon);
     }
 }

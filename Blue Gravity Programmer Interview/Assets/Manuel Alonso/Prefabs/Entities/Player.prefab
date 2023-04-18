@@ -108,9 +108,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2493b16aca48f044ea9d34da67c0af92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _hood: {fileID: 3200065602800707410}
-  _shirt: {fileID: 3200065608239086054}
-  _pants: {fileID: 3200065605767606280}
+  _hoodItem: {fileID: 11400000, guid: 40a6684ea4013cc42b370eb9422f4322, type: 2}
+  _shirtItem: {fileID: 11400000, guid: 99e71db96ce69dd4b92ee92845d881cd, type: 2}
+  _pantsItem: {fileID: 11400000, guid: 8a9a08b47e1e0e1489942b75a33e3c63, type: 2}
+  _hoodSprite: {fileID: 3200065602800707410}
+  _shirtSprite: {fileID: 3200065608239086054}
+  _pantsSprite: {fileID: 3200065605767606280}
 --- !u!114 &6835634500036772278
 MonoBehaviour:
   m_ObjectHideFlags: 0
