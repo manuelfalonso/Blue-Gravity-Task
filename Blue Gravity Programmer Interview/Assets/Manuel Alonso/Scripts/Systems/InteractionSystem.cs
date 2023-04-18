@@ -5,10 +5,17 @@ using UnityEngine.Events;
 
 public class InteractionSystem : MonoBehaviour
 {
+    [Header("Config")]
     [SerializeField]
     private Collider2D _interactionTrigger = default(Collider2D);
     [SerializeField]
     private ContactFilter2D _contactFilter = default(ContactFilter2D);
+
+    //[Header("UI")]
+    //[SerializeField]
+    //private GameObject _shopUI = default(GameObject);
+    //[SerializeField]
+    //private GameObject _inventoryUI = default(GameObject);
 
     private List<Collider2D> _contacts = new List<Collider2D>();
 
@@ -27,5 +34,14 @@ public class InteractionSystem : MonoBehaviour
             _contacts[0].GetComponent<InteractionHandler>().HandleInteracion();
         else
             OnDefaultInteraction?.Invoke();
+
+        //if (contactsQuantity > 0 && _shopUI.activeSelf)
+        //{
+        //    _inventoryUI.SetActive(true);
+        //    //_contacts[0].GetComponent<InteractionHandler>().HandleInteracion();
+        //}
+        //else
+        //    //OnDefaultInteraction?.Invoke();
+        //    _inventoryUI.SetActive(!_inventoryUI.activeSelf);
     }
 }

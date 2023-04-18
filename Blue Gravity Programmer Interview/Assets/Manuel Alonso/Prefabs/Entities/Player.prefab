@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7587102975325805736}
   - component: {fileID: 6416530509978811758}
   - component: {fileID: 4993841004941383763}
-  - component: {fileID: 6053163570091092898}
+  - component: {fileID: 6835634500036772278}
   - component: {fileID: 4524731200608929041}
   - component: {fileID: 621968008772134389}
   - component: {fileID: 743833109143149298}
@@ -84,13 +84,13 @@ MonoBehaviour:
   OnDefaultInteraction:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 6835634500036772278}
+        m_TargetAssemblyTypeName: PlayerUIController, Assembly-CSharp
+        m_MethodName: ToggleOpenInventory
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -111,7 +111,7 @@ MonoBehaviour:
   _hood: {fileID: 3200065602800707410}
   _shirt: {fileID: 3200065608239086054}
   _pants: {fileID: 3200065605767606280}
---- !u!114 &6053163570091092898
+--- !u!114 &6835634500036772278
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,9 +120,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 3623486280764889844}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67b118b231d6456458a01ed26a94c840, type: 3}
+  m_Script: {fileID: 11500000, guid: 529c7931d2ab23749981de4c941f7110, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _shopUI: {fileID: 0}
+  _inventoryUI: {fileID: 0}
 --- !u!114 &4524731200608929041
 MonoBehaviour:
   m_ObjectHideFlags: 0
