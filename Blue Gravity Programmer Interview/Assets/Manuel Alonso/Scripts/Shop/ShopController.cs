@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -15,6 +16,7 @@ public class ShopController : MonoBehaviour
     [Header("Events")]
     public UnityEvent<ItemShop> OnItemBought = new UnityEvent<ItemShop>();
 
+
     void Start()
     {
         LoadShop(_shopStock);
@@ -25,14 +27,26 @@ public class ShopController : MonoBehaviour
     {
         foreach (var item in _shopStock.Stock)
         {
-            var go = Instantiate(_shopItemPrefab, _shopItemsParent);
-            go.GetComponent<ShopItem>().OnBuyItem.AddListener(Buy);
-            go.Setup(item);
+            LoadItemShop(item);
         }
     }
 
     public void Buy(ItemShop data)
     {
         OnItemBought?.Invoke(data);
+    }
+
+    public void Sell(ItemShop data)
+    {
+        LoadItemShop(data);
+        PlayerCurrencyManager.Instance.IncreaseCoins((int)data.SellPrice);
+    }
+
+
+    private void LoadItemShop(ItemShop data)
+    {
+        var go = Instantiate(_shopItemPrefab, _shopItemsParent);
+        go.GetComponent<ShopItem>().OnBuyItem.AddListener(Buy);
+        go.Setup(data);
     }
 }

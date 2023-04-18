@@ -29,8 +29,6 @@ public class ShopItem : MonoBehaviour
     // Called fron Unity Event
     public void Buy()
     {
-        Debug.Log($"This item was bought");
-
         if (!_isInitialized) return;
 
         // Check if the player has enough currency and reduce its amount

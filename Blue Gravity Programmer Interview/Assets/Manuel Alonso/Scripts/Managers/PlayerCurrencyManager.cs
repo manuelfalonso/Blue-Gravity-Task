@@ -24,6 +24,9 @@ public class PlayerCurrencyManager : Singleton<PlayerCurrencyManager>
     {
         bool isSuccess = false;
 
+        Coins += amountToIncrease;
+        OnCoinsValueChanged?.Invoke(Coins);
+
         return isSuccess;
     }
 

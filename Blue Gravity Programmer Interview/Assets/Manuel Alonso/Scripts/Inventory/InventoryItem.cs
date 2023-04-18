@@ -49,8 +49,7 @@ public class InventoryItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     // Called from UI interaction
     public void OnPointerExit(PointerEventData eventData)
     {
-        if (IsInitialized)
-            _hoverMenu?.SetActive(false);
+        if (_hoverMenu.activeSelf) _hoverMenu.SetActive(false);
     }
 
     // Called from UI interaction
