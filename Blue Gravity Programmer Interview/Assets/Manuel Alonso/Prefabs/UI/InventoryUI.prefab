@@ -298,6 +298,21 @@ MonoBehaviour:
   - {fileID: 3745836025928685833}
   - {fileID: 116021223115509362}
   - {fileID: 2415607213672257366}
+  OnItemSold:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5830720489595483817
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,31 +440,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -566,31 +573,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -707,31 +706,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -848,31 +839,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -989,31 +972,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -1130,31 +1105,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -1271,31 +1238,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -1412,31 +1371,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -1553,31 +1504,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -1694,31 +1637,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -1835,31 +1770,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -1976,31 +1903,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -2117,31 +2036,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -2258,31 +2169,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -2399,31 +2302,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -2540,31 +2435,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -2681,31 +2568,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -2822,31 +2701,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -2963,31 +2834,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
@@ -3104,31 +2967,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 3826556208646434633}
     m_Modifications:
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2091087867578985333}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: RemoveItemFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InventoryController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3058023005832840759, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}
-      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnClickToSell.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5357403856839995311, guid: 619e435cb41b6c8419c041e1ac20d36d, type: 3}

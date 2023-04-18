@@ -11,23 +11,43 @@ public class ShopItem : MonoBehaviour
     private TextMeshProUGUI _priceText = default(TextMeshProUGUI);
 
     [Header("Events")]
-    public UnityEvent OnBuyItem = new UnityEvent();
-    public UnityEvent OnSellItem = new UnityEvent();
+    public UnityEvent<ItemShop> OnBuyItem = new UnityEvent<ItemShop>();
 
 
-    public void Setup(Sprite icon, string price)
+    private bool _isInitialized = false;
+    private ItemShop _data = default(ItemShop);
+
+
+    public void Setup(ItemShop data)
     {
-        _icon.sprite = icon;
-        _priceText.text = price;
+        _icon.sprite = data.Icon;
+        _priceText.text = data.BuyPrice.ToString();
+        _data = data;
+        _isInitialized = true;
     }
 
+    // Called fron Unity Event
     public void Buy()
     {
-        OnBuyItem?.Invoke();
+        if (!_isInitialized) return;
+
+        // Check if the player has enough currency and reduce its amount
+        if (!PlayerCurrencyManager.Instance.ReduceCoins((int)_data.BuyPrice))
+            return;
+
+        _isInitialized = false;
+        gameObject.SetActive(false);
+
+        OnBuyItem?.Invoke(_data);
+
+        Reset();
     }
 
-    public void Sell()
+
+    private void Reset()
     {
-        OnSellItem?.Invoke();
+        _icon = null;
+        _priceText.text = string.Empty;
+        _data = null;
     }
 }
