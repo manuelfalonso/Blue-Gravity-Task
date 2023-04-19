@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 463847991613262962}
   - component: {fileID: 2924675652975688061}
+  - component: {fileID: 7403860391699873892}
   - component: {fileID: 2688268429532742761}
-  - component: {fileID: 6228369035179384573}
   m_Layer: 6
   m_Name: Shopkeeper
   m_TagString: Shopkeeper
@@ -51,6 +51,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.5}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &7403860391699873892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2368551221313745843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c1e23de1d414c141ba1bf71e1017666, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shopUI: {fileID: 0}
+  _inventoryUI: {fileID: 0}
 --- !u!114 &2688268429532742761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,19 +79,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnInteraction:
     m_PersistentCalls:
-      m_Calls: []
---- !u!114 &6228369035179384573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2368551221313745843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67b118b231d6456458a01ed26a94c840, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+      m_Calls:
+      - m_Target: {fileID: 7403860391699873892}
+        m_TargetAssemblyTypeName: ShopkeeperController, Assembly-CSharp
+        m_MethodName: ToggleOpenShop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &7031864828500471430
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 592397074009482355}
   - component: {fileID: 7587102975325805736}
   - component: {fileID: 6416530509978811758}
+  - component: {fileID: 4993841004941383763}
+  - component: {fileID: 6835634500036772278}
   - component: {fileID: 4524731200608929041}
   - component: {fileID: 621968008772134389}
   - component: {fileID: 743833109143149298}
@@ -79,6 +81,53 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
+  OnDefaultInteraction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6835634500036772278}
+        m_TargetAssemblyTypeName: PlayerUIController, Assembly-CSharp
+        m_MethodName: ToggleOpenInventory
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4993841004941383763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3623486280764889844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2493b16aca48f044ea9d34da67c0af92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hoodItem: {fileID: 11400000, guid: 40a6684ea4013cc42b370eb9422f4322, type: 2}
+  _shirtItem: {fileID: 11400000, guid: 99e71db96ce69dd4b92ee92845d881cd, type: 2}
+  _pantsItem: {fileID: 11400000, guid: 8a9a08b47e1e0e1489942b75a33e3c63, type: 2}
+  _hoodSprite: {fileID: 3200065602800707410}
+  _shirtSprite: {fileID: 3200065608239086054}
+  _pantsSprite: {fileID: 3200065605767606280}
+--- !u!114 &6835634500036772278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3623486280764889844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529c7931d2ab23749981de4c941f7110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shopUI: {fileID: 0}
+  _inventoryUI: {fileID: 0}
 --- !u!114 &4524731200608929041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -251,6 +300,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
+--- !u!212 &3200065602800707410 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 212000013352628812, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
+  m_PrefabInstance: {fileID: 3357933068116759838}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &3200065605767606280 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 212000011487683862, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
+  m_PrefabInstance: {fileID: 3357933068116759838}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &3200065608239086054 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 212000010222169336, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
+  m_PrefabInstance: {fileID: 3357933068116759838}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3357419956402571044 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000010141028922, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}

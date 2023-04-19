@@ -455,7 +455,7 @@ MonoBehaviour:
   _hoverMenu: {fileID: 3736257643093578055}
   _itemIcon: {fileID: 56091426431632494}
   _itemPrice: {fileID: 5791184487425421649}
-  OnClickToSell:
+  OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3736257643093578055}
@@ -471,7 +471,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_TargetAssemblyTypeName: 
         m_MethodName: 
         m_Mode: 1
         m_Arguments:
