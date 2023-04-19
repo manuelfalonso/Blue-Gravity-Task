@@ -52,8 +52,14 @@ public class InventoryController : MonoBehaviour
         {
             if (!item.IsInitialized) continue;
             if (item.Data.Id != itemData.Id) continue;
-            OnItemSold?.Invoke(item.Data);
+
+            if (GameManager.Instance.IsShopOpen)
+                OnItemSold?.Invoke(item.Data);
+            else if (GameManager.Instance.IsInventoryOpen)
+                Tapestry.TapestryEventRegistry.OnItemEquiped?.Invoke(itemData, this);
+            
             item.ResetItem();
+
             isSuccess = true;
             break;
         }

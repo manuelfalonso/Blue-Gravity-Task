@@ -25,5 +25,7 @@ public class ShopkeeperIUController : MonoBehaviour
             _shopUI.SetActive(true);
             _inventoryUI.SetActive(true);
         }
+
+        Tapestry.TapestryEventRegistry.OnShopInteraction?.Invoke(_shopUI.activeSelf);
     }
 }

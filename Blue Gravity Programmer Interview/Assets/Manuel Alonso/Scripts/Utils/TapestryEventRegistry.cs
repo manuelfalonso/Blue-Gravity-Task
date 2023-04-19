@@ -8,11 +8,22 @@ namespace Tapestry
     public class TapestryEventRegistry
     {
 
-        #region Example
+        #region GameManager
         /// <summary>
-        /// Reports when Map objects are instantiated
+        /// Reports when the Shop was open or closed
         /// </summary>
-        public static TapestryEvent<GameObject> OnObjectSpawnedExample;
+        public static TapestryEvent<bool> OnShopInteraction;
+        /// <summary>
+        /// Reports when the Inventory was open or closed
+        /// </summary>
+        public static TapestryEvent<bool> OnInventoryInteraction;
+        #endregion
+
+        #region Inventory
+        /// <summary>
+        /// Reports when an item is equiped succesull
+        /// </summary>
+        public static TapestryEvent<ItemShop, InventoryController> OnItemEquiped;
         #endregion
 
         static TapestryEventRegistry()
@@ -22,9 +33,13 @@ namespace Tapestry
 
         private static void CreateTapestryEvents()
         {
+            #region GameManager
+            OnShopInteraction = new TapestryEvent<bool>();
+            OnInventoryInteraction = new TapestryEvent<bool>();
+            #endregion
 
-            #region Example
-            OnObjectSpawnedExample = new TapestryEvent<GameObject>();
+            #region Inventory
+            OnItemEquiped = new TapestryEvent<ItemShop, InventoryController>();
             #endregion
         }
 

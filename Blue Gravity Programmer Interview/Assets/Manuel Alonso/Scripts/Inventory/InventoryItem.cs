@@ -16,7 +16,7 @@ public class InventoryItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     private TextMeshProUGUI _itemPrice;
 
     [Header("Events")]
-    public UnityEvent<ItemShop> OnClickToSell = new UnityEvent<ItemShop>();
+    public UnityEvent<ItemShop> OnClick = new UnityEvent<ItemShop>();
 
 
     public ItemShop Data { get; private set; }
@@ -39,6 +39,11 @@ public class InventoryItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         IsInitialized = false;
     }
 
+    public void FreeItem()
+    {
+        IsInitialized = false;
+    }
+
     // Called from UI interaction
     public void OnPointerEnter(PointerEventData eventData)
     {
@@ -56,6 +61,6 @@ public class InventoryItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     public void OnPointerDown(PointerEventData eventData)
     {
         if (IsInitialized)
-            OnClickToSell?.Invoke(Data);
+            OnClick?.Invoke(Data);
     }
 }

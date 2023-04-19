@@ -28,5 +28,7 @@ public class PlayerUIController : MonoBehaviour
         {
             _inventoryUI.SetActive(false);
         }
+
+        Tapestry.TapestryEventRegistry.OnInventoryInteraction?.Invoke(_inventoryUI.activeSelf);
     }
 }
