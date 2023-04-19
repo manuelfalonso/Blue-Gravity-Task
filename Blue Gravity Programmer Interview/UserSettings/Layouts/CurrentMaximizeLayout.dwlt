@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 71
+  controlID: 5636
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1387,9 +1387,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 8ed7ffff
-      m_LastClickedID: -10354
-      m_ExpandedIDs: eed2ffff46d7ffff70d7ffff7ad7ffff8ad7ffff8ed7ffff90d7ffffaee7ffff06fbfffff4ffffffe48f0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 46d7ffff70d7ffff7ad7ffff8ad7ffff90d7ffffaee7ffff06fbfffff4ffffffe48f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1405,7 +1405,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
+        m_ClientGUIView: {fileID: 11}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1525,7 +1525,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 36836
+  m_LastSelectedObjectID: -11542
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1631,13 +1631,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Manuel Alonso/Prefabs/Managers
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Manuel Alonso/Prefabs/Managers
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Unity Files\Proyectos\ENTREVISTAS TECNICAS\Blue-Gravity-Task\Blue
     Gravity Programmer Interview
@@ -1645,9 +1645,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 04900000
-    m_LastClickedID: 36868
-    m_ExpandedIDs: 00000000ec8a0000ee8a0000f08a0000f28a0000f48a0000f68a0000f88a0000b68c0000ba8c0000be8c000000ca9a3b
+    m_SelectedIDs: ec8a0000
+    m_LastClickedID: 35564
+    m_ExpandedIDs: 00000000ec8a0000ee8a0000f08a0000f28a0000f48a0000f68a0000f88a0000ba8c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1675,7 +1675,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 409effff
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ec8a0000ee8a0000f08a0000f28a0000f48a0000f68a0000f88a0000
+    m_ExpandedIDs: 00000000ec8a0000ee8a0000f08a0000f28a0000f48a0000f68a0000f88a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1700,24 +1700,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 8ed7ffff
-    m_LastClickedInstanceID: -10354
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000fe2f000082310000be3e0000e691ffff00000000b48c0000523400005a930000ccc3feffec72000050850000debf000010c000006c730000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: TapestryEvent
-      m_OriginalName: TapestryEvent
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 36698
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 18}
     m_CreateAssetUtility:
