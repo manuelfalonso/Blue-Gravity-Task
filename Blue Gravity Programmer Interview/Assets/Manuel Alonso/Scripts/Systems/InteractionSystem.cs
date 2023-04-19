@@ -11,16 +11,10 @@ public class InteractionSystem : MonoBehaviour
     [SerializeField]
     private ContactFilter2D _contactFilter = default(ContactFilter2D);
 
-    //[Header("UI")]
-    //[SerializeField]
-    //private GameObject _shopUI = default(GameObject);
-    //[SerializeField]
-    //private GameObject _inventoryUI = default(GameObject);
-
-    private List<Collider2D> _contacts = new List<Collider2D>();
-
     [Header("Events")]
     public UnityEvent OnDefaultInteraction = new UnityEvent();
+
+    private List<Collider2D> _contacts = new List<Collider2D>();
 
 
     // Called from Input interaction

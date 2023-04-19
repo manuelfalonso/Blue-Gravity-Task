@@ -4,8 +4,6 @@ using UnityEngine.InputSystem;
 
 public class TopDownCharacterController2D : MonoBehaviour
 {
-    //[SerializeField]
-    //private PlayerInput _playerInput = default(PlayerInput);
     [SerializeField]
     private Rigidbody2D _rigidbody = default;
     [SerializeField]
@@ -21,6 +19,7 @@ public class TopDownCharacterController2D : MonoBehaviour
     }
 
 
+    // Called from Input action
     public void OnMove(InputAction.CallbackContext context)
     {
         // read the value for the "move" action each event call
