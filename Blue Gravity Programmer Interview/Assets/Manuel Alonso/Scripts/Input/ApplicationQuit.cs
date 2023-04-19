@@ -3,9 +3,14 @@ using UnityEngine.InputSystem;
 
 public class ApplicationQuit : MonoBehaviour
 {
+    // Called from Input interaction
     public void OnQuit(InputAction.CallbackContext context)
     {
-        if (!context.performed) return;
-        Application.Quit();
+        Debug.Log($"1");
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.ExitPlaymode();
+#else
+		Application.Quit();
+#endif
     }
 }

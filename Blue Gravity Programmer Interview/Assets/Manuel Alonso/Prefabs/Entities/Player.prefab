@@ -212,8 +212,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: b0a202bc-a672-49ae-9693-e2ff08c06de0
-    m_ActionName: Game/Quit[/Keyboard/escape]
+    m_ActionId: 7de1159e-03bc-4383-bf58-f6461080e2f5
+    m_ActionName: Player/Quit[/Keyboard/escape]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player

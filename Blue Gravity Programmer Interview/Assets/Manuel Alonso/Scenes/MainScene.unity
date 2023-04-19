@@ -555,6 +555,17 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1135927871 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1376050851908527554, guid: dc5b9a22fcde683439dcd6b9b7027789, type: 3}
+  m_PrefabInstance: {fileID: 155373940}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1384549739 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1776609295634184912, guid: b0cef8eb10a6dd64fbe06420f96a951b, type: 3}
@@ -788,6 +799,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.46
       objectReference: {fileID: 0}
+    - target: {fileID: 3338369846354271154, guid: b0cef8eb10a6dd64fbe06420f96a951b, type: 3}
+      propertyPath: m_UIInputModule
+      value: 
+      objectReference: {fileID: 1135927871}
     - target: {fileID: 5639170708394647317, guid: b0cef8eb10a6dd64fbe06420f96a951b, type: 3}
       propertyPath: _shopUI
       value: 

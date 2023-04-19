@@ -22,6 +22,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Quit",
+                    "type": "Button",
+                    "id": "7de1159e-03bc-4383-bf58-f6461080e2f5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -211,27 +220,10 @@
                     "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "Game",
-            "id": "4ee0abaa-555d-4de2-9cb6-ea023d91a8d6",
-            "actions": [
-                {
-                    "name": "Quit",
-                    "type": "Button",
-                    "id": "b0a202bc-a672-49ae-9693-e2ff08c06de0",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
+                },
                 {
                     "name": "",
-                    "id": "2e91e638-af23-4fcf-a97b-8f601e057f4e",
+                    "id": "4d45976c-e7ff-444a-ac68-5bdf562f0d37",
                     "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
